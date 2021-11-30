@@ -11,6 +11,7 @@
 		76C96E542755B6C7006DFAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C96E532755B6C7006DFAF9 /* ContentView.swift */; };
 		76C96E562755B6C8006DFAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C96E552755B6C8006DFAF9 /* Assets.xcassets */; };
 		76C96E592755B6C8006DFAF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C96E582755B6C8006DFAF9 /* Preview Assets.xcassets */; };
+		76C96E622755D246006DFAF9 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C96E612755D246006DFAF9 /* JokeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		76C96E532755B6C7006DFAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76C96E552755B6C8006DFAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C96E582755B6C8006DFAF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76C96E612755D246006DFAF9 /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				76C96E532755B6C7006DFAF9 /* ContentView.swift */,
 				76C96E552755B6C8006DFAF9 /* Assets.xcassets */,
 				76C96E572755B6C8006DFAF9 /* Preview Content */,
+				76C96E612755D246006DFAF9 /* JokeService.swift */,
 			);
 			path = "GettingStarted-tvOS";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C96E622755D246006DFAF9 /* JokeService.swift in Sources */,
 				76C96E542755B6C7006DFAF9 /* ContentView.swift in Sources */,
 				76C96E522755B6C7006DFAF9 /* GettingStarted_tvOSApp.swift in Sources */,
 			);
