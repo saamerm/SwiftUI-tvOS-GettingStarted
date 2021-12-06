@@ -14,13 +14,53 @@
 		76C96E622755D246006DFAF9 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C96E612755D246006DFAF9 /* JokeService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7684D1392756CDD900FCEBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7684D1352756CDD900FCEBB1 /* macos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7684D1232756CDD700FCEBB1;
+			remoteInfo = macos;
+		};
+		7684D13F2756CDD900FCEBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76C96EC12756BDFB006DFAF9;
+			remoteInfo = StairWidgetExtension;
+		};
+		76C96EAE27568AA1006DFAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76C96E6C27568A9C006DFAF9;
+			remoteInfo = WatchWithiPhone;
+		};
+		76C96EB027568AA1006DFAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76C96E7A27568A9E006DFAF9;
+			remoteInfo = "WatchWithiPhone WatchKit App";
+		};
+		76C96EB227568AA1006DFAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76C96E8527568A9F006DFAF9;
+			remoteInfo = "WatchWithiPhone WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7684D1352756CDD900FCEBB1 /* macos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = macos.xcodeproj; path = macos/macos.xcodeproj; sourceTree = "<group>"; };
 		76C96E4E2755B6C7006DFAF9 /* GettingStarted-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GettingStarted-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C96E512755B6C7006DFAF9 /* GettingStarted_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStarted_tvOSApp.swift; sourceTree = "<group>"; };
 		76C96E532755B6C7006DFAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76C96E552755B6C8006DFAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C96E582755B6C8006DFAF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76C96E612755D246006DFAF9 /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatchWithiPhone.xcodeproj; path = WatchWithiPhone/WatchWithiPhone.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,9 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7684D1362756CDD900FCEBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7684D13A2756CDD900FCEBB1 /* macos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		76C96E452755B6C7006DFAF9 = {
 			isa = PBXGroup;
 			children = (
+				7684D1352756CDD900FCEBB1 /* macos.xcodeproj */,
+				76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */,
 				76C96E502755B6C7006DFAF9 /* GettingStarted-tvOS */,
 				76C96E4F2755B6C7006DFAF9 /* Products */,
 			);
@@ -68,6 +118,17 @@
 				76C96E582755B6C8006DFAF9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76C96EA927568AA0006DFAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C96EAF27568AA1006DFAF9 /* WatchWithiPhone.app */,
+				76C96EB127568AA1006DFAF9 /* WatchWithiPhone WatchKit App.app */,
+				76C96EB327568AA1006DFAF9 /* WatchWithiPhone WatchKit Extension.appex */,
+				7684D1402756CDD900FCEBB1 /* StairWidgetExtension.appex */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,12 +177,60 @@
 			mainGroup = 76C96E452755B6C7006DFAF9;
 			productRefGroup = 76C96E4F2755B6C7006DFAF9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7684D1362756CDD900FCEBB1 /* Products */;
+					ProjectRef = 7684D1352756CDD900FCEBB1 /* macos.xcodeproj */;
+				},
+				{
+					ProductGroup = 76C96EA927568AA0006DFAF9 /* Products */;
+					ProjectRef = 76C96EA827568AA0006DFAF9 /* WatchWithiPhone.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				76C96E4D2755B6C7006DFAF9 /* GettingStarted-tvOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7684D13A2756CDD900FCEBB1 /* macos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = macos.app;
+			remoteRef = 7684D1392756CDD900FCEBB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7684D1402756CDD900FCEBB1 /* StairWidgetExtension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = StairWidgetExtension.appex;
+			remoteRef = 7684D13F2756CDD900FCEBB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76C96EAF27568AA1006DFAF9 /* WatchWithiPhone.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WatchWithiPhone.app;
+			remoteRef = 76C96EAE27568AA1006DFAF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76C96EB127568AA1006DFAF9 /* WatchWithiPhone WatchKit App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "WatchWithiPhone WatchKit App.app";
+			remoteRef = 76C96EB027568AA1006DFAF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76C96EB327568AA1006DFAF9 /* WatchWithiPhone WatchKit Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "WatchWithiPhone WatchKit Extension.appex";
+			remoteRef = 76C96EB227568AA1006DFAF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		76C96E4C2755B6C7006DFAF9 /* Resources */ = {
