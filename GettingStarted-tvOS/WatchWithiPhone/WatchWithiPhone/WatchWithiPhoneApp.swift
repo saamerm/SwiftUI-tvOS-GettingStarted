@@ -8,13 +8,11 @@
 import SwiftUI
 
 @main
-struct WatchWithiPhoneApp: App {
-    @State private var notification: CustomNotification? = CustomNotification(text: "LOL", isPriority: true)
-    
+struct WatchWithiPhoneApp: App {    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(notification: $notification)
+                ContentView()
             }
         }
 

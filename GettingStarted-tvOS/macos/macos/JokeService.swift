@@ -1,4 +1,5 @@
 import Foundation
+
 private actor JokeServiceStore {
     func load() async throws -> String {
         let (data, _) = try await URLSession.shared.data(from: URL(string:"https://api.chucknorris.io/jokes/random")!)
